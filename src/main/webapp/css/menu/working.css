@@ -1,0 +1,162 @@
+@charset "EUC-KR";
+
+#workingTable {
+	width: 100%;
+	height: 750px;
+	border-spacing: 10px;
+}
+
+.workingTd {
+	background-color: #37474F;
+	border: #EEEEEEE0 solid 2px;
+	border-radius: 10px;
+	vertical-align: top;
+}
+
+.weatherTd {
+	background-color: #37474F;
+	border: #EEEEEEE0 solid 2px;
+	border-radius: 10px;
+	vertical-align: middle;
+	height: 80px;
+	font-size: 20px;
+	font-family: "EliceDigitalBaeum_Regular";
+	width: 400px;
+}
+
+#weatherImg {
+	background-color: #B0BEC5;
+	border-radius: 5px;
+	border: #EEEEEE solid 2px;
+	margin-top: 6px;
+	margin-left: 12px;
+}
+
+#weatherTable {
+	margin-top: 17px;
+	margin-left: 20px;
+	float: left;
+	font-weight: 700;
+}
+
+#addTd {
+	margin: auto;
+	padding: auto;
+}
+
+.addTodoFormDiv {
+	font-family: "EliceDigitalBaeum_Regular";
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+
+.addTodoFormDiv select {
+	font-family: "EliceDigitalBaeum_Regular";
+	background-color: #EEEEEE;
+	font-weight: 600;
+	border-radius: 5px;
+	border: #202525 solid 3px;
+}
+
+.dateSelect {
+	width: 60px;
+	height: 30px;
+}
+
+.importanceSelect {
+	width: 120px;
+	height: 40px;
+}
+
+.addTodoFormDiv input {
+	width: 250px;
+	height: 40px;
+	font-weight: 600;
+	font-size: 12pt;
+	font-family: "EliceDigitalBaeum_Regular";
+	background-color: #EEEEEE;
+	border-radius: 5px;
+	border: #202525 solid 3px;
+}
+
+.addTodoFormDiv button {
+	width: 150px;
+	height: 35px;
+	background-color: #37474F;
+	border-radius: 15px;
+	border: #70DF98 solid 3px;
+	font-size: 12pt;
+	font-family: "EliceDigitalBaeum_Regular";
+	font-weight: 600;
+	color: #70DF98;
+	margin-top: 20px;
+	cursor: pointer;
+}
+
+.toDoTable {
+	margin-top: 20px;
+	padding-top: 20px;
+	width: 90%;
+	max-height: 85%;
+	border-collapse: collapse;
+}
+
+.toDoTable tr{
+	height: 50px;
+	border-bottom: #90A4AE solid 2px;
+}
+
+.toDoTableTitle {
+	font-family: "EliceDigitalBaeum_Bold";
+	color: #FDD835;
+}
+
+.toDoTableTr {
+	font-family: "EliceDigitalBaeum_Regular";
+	color: #EEEEEE;
+}
+
+.toDoTableTr:hover {
+	font-family: "EliceDigitalBaeum_Regular";
+	color: #CFD8DC;
+	background-color: #263238;
+	cursor: pointer;
+}
+
+#timeTh {
+	width: 150px;
+}
+
+#todolistTh {
+	max-width: 250px;
+}
+
+#memoTh {
+	max-width: 150px;
+}
+
+#importanceTh {
+	width: 100px;
+}
+
+.todotext {
+	width: 240px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.memotext {
+	width: 140px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+#pageController {
+	margin-top: 40px;
+}

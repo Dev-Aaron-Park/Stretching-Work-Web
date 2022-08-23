@@ -1,0 +1,108 @@
+@charset "EUC-KR";
+
+@font-face{
+	font-family: "EliceDigitalBaeum_Bold";
+	src: url("../font/EliceDigitalBaeum_Bold.ttf");
+}
+
+@font-face{
+	font-family: "EliceDigitalBaeum_Regular";
+	src: url("../font/EliceDigitalBaeum_Regular.ttf");
+}
+
+body {
+	background-color: #202525;
+	color: #EEEEEE;
+	/* HTML의 기본 여백 삭제 */
+	margin: 0px;
+	padding: 0px;
+}
+
+a {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+#siteTitleArea {
+	background-color: #202525;
+	width: 100%;
+	position: fixed;
+	left: 0px;
+	top: 0px;
+}
+
+#siteTitle {
+	width: 1200px;
+	height: 50px;
+}
+
+#titleLogo {
+	margin-right: 250px;
+}
+
+#loginLink {
+	font-family: "EliceDigitalBaeum_Regular";
+	font-size: 14px;
+	color: #CFD8DC;
+	transition: all 0.2s ease-in;
+}
+
+#loginLink:hover {
+	font-family: "EliceDigitalBaeum_Bold";
+	color: #EEEEEE;
+}
+
+#siteMenuArea {
+	background-color: #37474F;
+}
+
+#siteMenu {
+	width: 1200px;
+	height: 35px;
+}
+
+#siteMenu a{
+	margin-right: 70px;
+	font-family: "EliceDigitalBaeum_Regular";
+	color: #CFD8DC;
+	transition: all 0.2s ease-in;
+}
+
+#siteMenu a:hover{
+	font-family: "EliceDigitalBaeum_Bold";
+	color: #EEEEEE;
+}
+
+#siteContentArea {
+	width: 1200px;
+	margin: auto;
+	padding-top: 150px; 
+}
+
+#homeImg {
+	width: 100%;
+}
+
+.userInfoTable {
+	width: 170px;
+	font-family: "EliceDigitalBaeum_Regular";
+	height: 30px;
+	font-size: 12pt;
+	border: #546E7A solid 2px;
+	border-radius: 5px;
+}
+
+.userInfoTable img{
+	height: 30px;
+	width: 30px;
+	background-color: #B0BEC5;
+	border-radius: 5px;
+	border: #EEEEEE solid 2px;
+	margin-top: 6px;
+	margin-left: 5px;
+	margin-right: 0px;
+}
+
+#homeStartBtn {
+	cursor: pointer;
+}

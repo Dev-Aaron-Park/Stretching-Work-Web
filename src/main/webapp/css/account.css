@@ -1,0 +1,70 @@
+@charset "EUC-KR";
+
+.accountTable {
+	margin: auto;
+	margin-top: 0px;
+	padding: auto;
+	width: 30%;
+	background-color: #37474F;
+	border: #90A4AE solid 1px;
+	border-radius: 5px;
+}
+
+.signupTable {
+	height: 750px;
+}
+
+.loginTable {
+	height: 300px;
+}
+
+#accountTitle {
+	font-size: 22pt;
+}
+
+#accountSubTitle {
+	font-weight: bold;
+}
+
+.accountTable input{
+	width: 70%;
+	height: 30px;
+	background-color: #CFD8DC;
+	border: #90A4AE solid 1px;
+	border-radius: 5px;
+	outline:none;
+}
+
+.accountTable button{
+	width: 50%;
+	height: 30px;
+	border: #90A4AE solid 1px;
+	border-radius: 5px;
+	font-weight: 700;
+	font-size: 12pt;
+	color: #37474F;
+}
+
+.accountTable a{
+	color: #F0F0F0;
+	font-weight: 700;
+	font-size: 12pt;
+}
+
+#accountDateSelect select {
+	font-family: "EliceDigitalBaeum_Regular";
+	background-color: #CFD8DC;
+	font-weight: 600;
+	border-radius: 3px;
+	border: none;
+	width: 60px;
+	height: 30px;
+}
+
+#deleteBtn {
+	background-color: #37474F;
+	border: #D50000 solid 3px;
+	color: #FF1744;
+	border-radius: 15px;
+}
+
